@@ -1,2 +1,2 @@
-excerism exercises in ruby
+excerism exercises
 ========
