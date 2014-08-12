@@ -7,17 +7,14 @@ class ComplementTest < MiniTest::Unit::TestCase
   end
 
   def test_rna_complement_of_guanine_is_cytosine
-    skip
     assert_equal 'C', Complement.of_dna('G')
   end
 
   def test_rna_complement_of_thymine_is_adenine
-    skip
     assert_equal 'A', Complement.of_dna('T')
   end
 
   def test_rna_complement_of_adenine_is_uracil
-    skip
     assert_equal 'U', Complement.of_dna('A')
   end
 
