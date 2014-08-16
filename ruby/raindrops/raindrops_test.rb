@@ -8,10 +8,12 @@ class RaindropsTest < MiniTest::Unit::TestCase
   end
 
   def test_3
+
     assert_equal "Pling", Raindrops.convert(3)
   end
 
   def test_5
+
     assert_equal "Plang", Raindrops.convert(5)
   end
 
@@ -40,37 +42,30 @@ class RaindropsTest < MiniTest::Unit::TestCase
   end
 
   def test_21
-    skip
     assert_equal "PlingPlong", Raindrops.convert(21)
   end
 
   def test_25
-    skip
     assert_equal "Plang", Raindrops.convert(25)
   end
 
   def test_35
-    skip
     assert_equal "PlangPlong", Raindrops.convert(35)
   end
 
   def test_49
-    skip
     assert_equal "Plong", Raindrops.convert(49)
   end
 
   def test_52
-    skip
     assert_equal "52", Raindrops.convert(52)
   end
 
   def test_105
-    skip
     assert_equal "PlingPlangPlong", Raindrops.convert(105)
   end
 
   def test_12121
-    skip
     assert_equal "12121", Raindrops.convert(12121)
   end
 

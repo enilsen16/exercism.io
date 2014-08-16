@@ -1,15 +1,13 @@
 class Raindrops
+
   def self.convert(number)
     answer = ""
-    if number % 3 == 0
-      answer << "Pling"
-    elsif number % 5 == 0
-      answer << "Plang"
-    elsif number % 7 == 0
-      answer << "Plong"
-    else
+    unless (number % 3) == 0 || (number % 5) == 0 || (number % 7) == 0
       answer = number.to_s
     end
-      answer
+    answer << "Pling" if (number % 3) == 0
+    answer << "Plang" if (number % 5) == 0
+    answer << "Plong" if (number % 7) == 0
+    answer
   end
 end
