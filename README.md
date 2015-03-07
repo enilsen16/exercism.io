@@ -1,2 +1,2 @@
-excerism exercises
+Exercism exercises
 ========
